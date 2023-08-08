@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+html{
+    height: 100%; /*fix the height issue*/
+}
+
+body{
+    height: 100%;
+    background-color: rgb(238, 234, 241);
+    display: flex;
+    flex-direction: row;
+}
+#title{
+    height: 50px;
+    background-color: rgb(77, 77, 77);
+    color: rgb(167, 167, 167);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#usersList{
+    height: 100%;
+    width: 400px;
+    background-color: rgb(43, 42, 42);
+    border-right: 2px solid rgb(78, 78, 78);
+}
+
+#chatView{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    justify-content: center;
+}
+
+.none{
+    color: rgb(167, 167, 167);
+    align-self: center;
+    font-size: 18px;
+}
+
+.chat{
+    width: 100%;
+    height: 55px;
+    color: rgb(216, 216, 216);
+    padding: 5px;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    display: block;
+}
+.name{
+    font-weight: 500;
+    width: 100%;
+    font-size: 20px;
+}
+
+.time{
+    float: right;
+    color: rgb(167, 167, 167);
+}
